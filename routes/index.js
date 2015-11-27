@@ -14,7 +14,8 @@ router.post('/login',function(req, res, next){
                 return res.sendStatus(300);
             } else {
                 //todo
-                return res.sendStatus(200);
+                console.log('用户登陆',userInfo);
+                return res.render('main.html',{title : '首页'});
             }
         } else {
             return res.sendStatus(500);
