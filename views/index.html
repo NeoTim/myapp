@@ -3,7 +3,7 @@
     <!--<p>Welcome to <%= title %></p>-->
 
     <div class="container">
-        <form id="form1" name="form1" >
+        <form id="form1" name="form1" method="post" action="/login">
             <fieldset>
                 <h2>欢迎登陆</h2>
                 <div class="input-group margin-bottom-sm">
@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="input-group">
-                    <button type="submit" id="form1_submit" class="btn btn-primary">登陆</button>
+                    <button id="form1_submit" type="button" class="btn btn-primary">登陆</button>
                 </div>
             </fieldset>
         </form>
@@ -35,9 +35,9 @@
                 success : function (result) {
                     console.log('=====>>',result);
                     alert('成功');
-                    return;
                 }
             });
+            return false; //阻止表单自动提交
         });
     });
 </script>
