@@ -3,7 +3,7 @@
     <!--<p>Welcome to <%= title %></p>-->
 
     <div class="container">
-        <form id="form1" name="form1" method="post" action="/login">
+        <form id="form1" name="form1" >
             <fieldset>
                 <h2>欢迎登陆</h2>
                 <div class="input-group margin-bottom-sm">
@@ -25,15 +25,17 @@
 <script>
     $(document).ready(function () {
         console.log('ready go!');
-        $('form1_submit').on('click', function () {
+        $('#form1_submit').on('click', function () {
             console.log('clickkkkk');
-            $('form1').ajaxSubmit({
+            $('#form1').ajaxSubmit({
                 url : '/login',
                 type : 'POST',
+                data : {email : $('#email').value, password : $('#password').value},
                 dataType : 'json',
                 success : function (result) {
                     console.log('=====>>',result);
                     alert('成功');
+                    return;
                 }
             });
         });

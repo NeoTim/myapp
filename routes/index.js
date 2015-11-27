@@ -15,8 +15,10 @@ router.post('/login',function(req, res, next){
             } else {
                 //todo
                 console.log('用户登陆',userInfo);
-                return res.render('main.html',{title : '首页'});
+                //return res.render('main.html',{title : '首页'});
+                return res.send({status : 200,info : userInfo});
             }
+
         } else {
             return res.sendStatus(500);
         }
