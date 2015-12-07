@@ -1,9 +1,9 @@
 /**
  * Created by lixiaodong on 15/11/26.
  */
-var user = require('../schema/userInfo.js');
+//var user = require('../schema/userInfo.js');
 var util = require('../util/util.js');
-
+var mongo = require('./mongo.js');
 
 var checkIsInDb = function(req,res,next){
     var email = req.body.email;
@@ -13,17 +13,13 @@ var checkIsInDb = function(req,res,next){
     email = util.hashAlgorithm(email);
     password = util.hashAlgorithm(password);
 
-    console.log(email, password);
-    user.findById(email).exec(function(err,userInfo){
+    console.log('checkisInDb==>',email, password);
+    mongo.findById('user',email,function(err,userInfo){
         console.log(err,userInfo);
         if(!err){
             if(!userInfo){
-                //userInfo = new user({_id : email, password : password});
-                //userInfo.save(function(err){
-                //    console.log('创建新角色==>>',err,userInfo);
-                //    next(err,userInfo);
-                //});
                 next('no_user');
+                return;
             } else {
                 next(null,userInfo);
             }

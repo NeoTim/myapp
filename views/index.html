@@ -35,6 +35,9 @@
                 success : function (result) {
                     console.log('=====>>',result);
                     alert('成功');
+                },
+                error : function(err){
+                    alert('请注册');
                 }
             });
             return false; //阻止表单自动提交
