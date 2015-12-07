@@ -1,0 +1,19 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "file",
+      "filename": "normal.log",
+      "category": [ "normal","console" ]
+    },
+    {
+      "type": "file",
+      "filename": "login.log",
+      "category": [ "login" ]
+    }
+  ],
+  "replaceConsole": true,
+  "level": "ERROR"
+}

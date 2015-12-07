@@ -9,12 +9,10 @@ var checkIsInDb = function(req,res,next){
     var email = req.body.email;
     var password = req.body.password;
 
-    console.log(email,password);
     email = util.hashAlgorithm(email);
     password = util.hashAlgorithm(password);
 
-    console.log('checkisInDb==>',email, password);
-    mongo.findById('user',email,function(err,userInfo){
+    mongo.find('user',email,function(err,userInfo){
         console.log(err,userInfo);
         if(!err){
             if(!userInfo){

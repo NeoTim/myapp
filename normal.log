@@ -1,0 +1,25 @@
+[2015-12-07 17:46:44.056] [INFO] console - connected to mongodb!
+[2015-12-07 17:53:27.027] [INFO] console - Logger {
+  category: 'normal',
+  _events: { log: [ [Function], [Function] ] },
+  _eventsCount: 1,
+  level: Level { level: 20000, levelStr: 'INFO' } }
+[2015-12-07 17:53:27.065] [INFO] console - connected to mongodb!
+[2015-12-07 18:03:29.435] [INFO] console - Logger {
+  category: 'normal',
+  _events: { log: [ [Function], [Function] ] },
+  _eventsCount: 1,
+  level: Level { level: 20000, levelStr: 'INFO' } }
+[2015-12-07 18:03:29.480] [INFO] console - connected to mongodb!
+[2015-12-07 18:03:59.805] [INFO] console - hautlixiaodong@gmail.com lxddddd
+[2015-12-07 18:03:59.805] [INFO] console - checkisInDb==> ec41667d5ecb36d564ee4cf37c7475dc abb23ca27a443f7f93698869e48d8470
+[2015-12-07 18:03:59.825] [INFO] console - null { age: 0,
+  loginTime: 0,
+  __v: 0,
+  password: 'e10adc3949ba59abbe56e057f20f883e',
+  _id: 'ec41667d5ecb36d564ee4cf37c7475dc' }
+[2015-12-07 18:03:59.827] [INFO] console - 用户登陆 { age: 0,
+  loginTime: 0,
+  __v: 0,
+  password: 'e10adc3949ba59abbe56e057f20f883e',
+  _id: 'ec41667d5ecb36d564ee4cf37c7475dc' }
