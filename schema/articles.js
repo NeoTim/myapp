@@ -2,17 +2,17 @@
  * Created by lixiaodong on 15/12/2.
  */
 
-var articleSchema = mongoose.Schema({
-    name: String,
-    //Also creating index on field isbn
-    isbn: {type: String, index: true},
-    author: String,
-    pages: Number
-});
-
-
-
-var article = mongoose.model('articles', articleSchema, "mongoose_demo");
+//var articleSchema = mongoose.Schema({
+//    name: String,
+//    //Also creating index on field isbn
+//    isbn: {type: String, index: true},
+//    author: String,
+//    pages: Number
+//});
+//
+//
+//
+//var article = mongoose.model('articles', articleSchema, "mongoose_demo");
 
 //
 //var queryarticlesByOpt = function(opt){

@@ -40,7 +40,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'bower_components')));
 
-var log_format = ':req[X-Forwarded-For] - [:date] ":method :url" :status :response-timems ":referrer" ":user-agent"';
+var log_format = '[:date] ":method :url" :status :response-timems ":referrer" ":user-agent"';
 app.use(logger.connectLogger(log_format))
 
 
@@ -83,6 +83,5 @@ app.use(function(err, req, res, next) {
   });
 });
 
-console.log(logger.logger('normal'));
 //DEBUG=myapp:* npm start
 module.exports = app;

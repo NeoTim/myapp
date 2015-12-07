@@ -20,5 +20,9 @@ var articleSchema = new mongoose.Schema({
     modifyTime : {type : Number,default: Date.now()}
 });
 
-exports.userSchema = userSchema;
-exports.articleSchema = articleSchema;
+var userModel = mongoose.model('user',userSchema);
+var articleModel = mongoose.model('articles',articleSchema);
+
+
+exports.userModel = userModel;
+exports.articleModel = articleModel;

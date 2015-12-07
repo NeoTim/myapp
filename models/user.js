@@ -4,16 +4,16 @@
 //var user = require('../schema/userInfo.js');
 var util = require('../util/util.js');
 var mongo = require('./mongo.js');
+var userModel = require('../schema/schema.js').userModel;
 
-var checkIsInDb = function(req,res,next){
+var checkIsInDb = function(req,next){
     var email = req.body.email;
     var password = req.body.password;
 
     email = util.hashAlgorithm(email);
     password = util.hashAlgorithm(password);
 
-    mongo.find('user',email,function(err,userInfo){
-        console.log(err,userInfo);
+    userModel.find({email:email, password: password},function(err,userInfo){
         if(!err){
             if(!userInfo){
                 next('no_user');

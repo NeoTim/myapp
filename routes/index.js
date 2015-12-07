@@ -8,9 +8,9 @@ router.get('/', function(req, res, next) {
   res.render('index.html', { title: 'Express' });
 });
 
-router.post('/login',function(req, res, next){
+router.post('/login',function(req, res){
     logger.info('login parameters : email '+req.body.email+' pass'+req.body.password);
-    user.checkIsInDb(req,res,function(err,userInfo){
+    user.checkIsInDb(req,function(err,userInfo){
         if(!err){
             if(!userInfo){
                 return res.sendStatus(300);

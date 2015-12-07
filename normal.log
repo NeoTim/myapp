@@ -23,3 +23,10 @@
   __v: 0,
   password: 'e10adc3949ba59abbe56e057f20f883e',
   _id: 'ec41667d5ecb36d564ee4cf37c7475dc' }
+[2015-12-07 18:28:43.279] [INFO] console - Logger {
+  category: 'normal',
+  _events: { log: [ [Function], [Function] ] },
+  _eventsCount: 1,
+  level: Level { level: 20000, levelStr: 'INFO' } }
+[2015-12-07 18:28:43.319] [INFO] console - connected to mongodb!
+[2015-12-07 18:29:36.820] [INFO] console - 用户登陆 []
