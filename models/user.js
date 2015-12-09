@@ -3,7 +3,6 @@
  */
 //var user = require('../schema/userInfo.js');
 var util = require('../util/util.js');
-var mongo = require('./mongo.js');
 var userModel = require('../schema/schema.js').userModel;
 
 var checkIsInDb = function(req,next){

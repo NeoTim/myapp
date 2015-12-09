@@ -1,32 +1,227 @@
-[2015-12-07 17:46:44.056] [INFO] console - connected to mongodb!
-[2015-12-07 17:53:27.027] [INFO] console - Logger {
-  category: 'normal',
-  _events: { log: [ [Function], [Function] ] },
-  _eventsCount: 1,
-  level: Level { level: 20000, levelStr: 'INFO' } }
-[2015-12-07 17:53:27.065] [INFO] console - connected to mongodb!
-[2015-12-07 18:03:29.435] [INFO] console - Logger {
-  category: 'normal',
-  _events: { log: [ [Function], [Function] ] },
-  _eventsCount: 1,
-  level: Level { level: 20000, levelStr: 'INFO' } }
-[2015-12-07 18:03:29.480] [INFO] console - connected to mongodb!
-[2015-12-07 18:03:59.805] [INFO] console - hautlixiaodong@gmail.com lxddddd
-[2015-12-07 18:03:59.805] [INFO] console - checkisInDb==> ec41667d5ecb36d564ee4cf37c7475dc abb23ca27a443f7f93698869e48d8470
-[2015-12-07 18:03:59.825] [INFO] console - null { age: 0,
-  loginTime: 0,
-  __v: 0,
-  password: 'e10adc3949ba59abbe56e057f20f883e',
-  _id: 'ec41667d5ecb36d564ee4cf37c7475dc' }
-[2015-12-07 18:03:59.827] [INFO] console - 用户登陆 { age: 0,
-  loginTime: 0,
-  __v: 0,
-  password: 'e10adc3949ba59abbe56e057f20f883e',
-  _id: 'ec41667d5ecb36d564ee4cf37c7475dc' }
-[2015-12-07 18:28:43.279] [INFO] console - Logger {
-  category: 'normal',
-  _events: { log: [ [Function], [Function] ] },
-  _eventsCount: 1,
-  level: Level { level: 20000, levelStr: 'INFO' } }
-[2015-12-07 18:28:43.319] [INFO] console - connected to mongodb!
-[2015-12-07 18:29:36.820] [INFO] console - 用户登陆 []
+[2015-12-08 17:07:01.796] [INFO] console - redis connect success!
+[2015-12-08 17:07:01.803] [INFO] console - redis connect success!
+[2015-12-08 17:07:01.814] [INFO] console - redis is ready!
+[2015-12-08 17:07:01.816] [INFO] console - redis is ready!
+[2015-12-08 17:07:01.832] [INFO] console - connected to mongodb!
+[2015-12-08 17:08:08.178] [INFO] console - redis connect success!
+[2015-12-08 17:08:08.185] [INFO] console - redis connect success!
+[2015-12-08 17:08:08.199] [INFO] console - redis is ready!
+[2015-12-08 17:08:08.201] [INFO] console - redis is ready!
+[2015-12-08 17:08:08.216] [INFO] console - connected to mongodb!
+[2015-12-08 17:08:08.232] [INFO] console - robots====>>>> { all: 
+   { 'hautlixiaodong@163.com': { level: 1, _id: 'hautlixiaodong@163.com' },
+     ec41667d5ecb36d564ee4cf37c7475dc: { level: 1, _id: 'ec41667d5ecb36d564ee4cf37c7475dc' } },
+  info: 
+   [ { level: 1, _id: 'hautlixiaodong@163.com' },
+     { level: 1, _id: 'ec41667d5ecb36d564ee4cf37c7475dc' } ] }
+[2015-12-08 17:20:40.456] [INFO] console - redis connect success!
+[2015-12-08 17:20:40.461] [INFO] console - redis connect success!
+[2015-12-08 17:20:40.473] [INFO] console - redis is ready!
+[2015-12-08 17:20:40.474] [INFO] console - redis is ready!
+[2015-12-08 17:20:40.489] [INFO] console - connected to mongodb!
+[2015-12-08 17:26:32.017] [INFO] console - redis connect success!
+[2015-12-08 17:26:32.023] [INFO] console - redis connect success!
+[2015-12-08 17:26:32.035] [INFO] console - redis is ready!
+[2015-12-08 17:26:32.037] [INFO] console - redis is ready!
+[2015-12-08 17:26:32.053] [INFO] console - connected to mongodb!
+[2015-12-08 17:26:32.070] [INFO] console - robots====>>>> { all: 
+   { '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' },
+     '5666a22a77d1cd7c545e3a5c': { level: 1, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' } },
+  info: 
+   [ { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' },
+     { level: 1, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' } ] }
+[2015-12-08 17:26:58.471] [INFO] console - redis connect success!
+[2015-12-08 17:26:58.476] [INFO] console - redis connect success!
+[2015-12-08 17:26:58.488] [INFO] console - redis is ready!
+[2015-12-08 17:26:58.489] [INFO] console - redis is ready!
+[2015-12-08 17:26:58.506] [INFO] console - connected to mongodb!
+[2015-12-08 17:26:58.523] [INFO] console - robots====>>>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 17:27:59.389] [INFO] console - redis connect success!
+[2015-12-08 17:27:59.399] [INFO] console - redis connect success!
+[2015-12-08 17:27:59.413] [INFO] console - redis is ready!
+[2015-12-08 17:27:59.414] [INFO] console - redis is ready!
+[2015-12-08 17:27:59.429] [INFO] console - connected to mongodb!
+[2015-12-08 17:27:59.453] [INFO] console - robots====>>>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 17:27:59.459] [INFO] console - 机器人初始化完毕! [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+  { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ]
+[2015-12-08 17:29:42.233] [INFO] console - redis connect success!
+[2015-12-08 17:29:42.238] [INFO] console - redis connect success!
+[2015-12-08 17:29:42.251] [INFO] console - redis is ready!
+[2015-12-08 17:29:42.252] [INFO] console - redis is ready!
+[2015-12-08 17:29:42.266] [INFO] console - connected to mongodb!
+[2015-12-08 17:29:42.286] [INFO] console - 获取robots==>> null [object Object]
+[2015-12-08 17:30:10.387] [INFO] console - redis connect success!
+[2015-12-08 17:30:10.393] [INFO] console - redis connect success!
+[2015-12-08 17:30:10.406] [INFO] console - redis is ready!
+[2015-12-08 17:30:10.408] [INFO] console - redis is ready!
+[2015-12-08 17:30:10.424] [INFO] console - connected to mongodb!
+[2015-12-08 17:30:10.444] [INFO] console - 获取robots==>> null { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 17:30:37.432] [INFO] console - redis connect success!
+[2015-12-08 17:30:37.438] [INFO] console - redis connect success!
+[2015-12-08 17:30:37.450] [INFO] console - redis is ready!
+[2015-12-08 17:30:37.452] [INFO] console - redis is ready!
+[2015-12-08 17:30:37.467] [INFO] console - connected to mongodb!
+[2015-12-08 17:30:37.489] [INFO] console - 获取robots==>> null { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 17:31:37.853] [INFO] console - redis connect success!
+[2015-12-08 17:31:37.859] [INFO] console - redis connect success!
+[2015-12-08 17:31:37.872] [INFO] console - redis is ready!
+[2015-12-08 17:31:37.874] [INFO] console - redis is ready!
+[2015-12-08 17:31:37.888] [INFO] console - connected to mongodb!
+[2015-12-08 17:32:18.328] [INFO] console - redis connect success!
+[2015-12-08 17:32:18.334] [INFO] console - redis connect success!
+[2015-12-08 17:32:18.347] [INFO] console - redis is ready!
+[2015-12-08 17:32:18.348] [INFO] console - redis is ready!
+[2015-12-08 17:32:18.361] [INFO] console - connected to mongodb!
+[2015-12-08 17:32:18.377] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 17:32:18.382] [INFO] console - 获取robots==>> null { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 17:45:26.518] [INFO] console - redis connect success!
+[2015-12-08 17:46:49.498] [INFO] console - redis connect success!
+[2015-12-08 17:46:49.512] [INFO] console - redis is ready!
+[2015-12-08 17:46:49.513] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:46:49.528] [INFO] console - connected to mongodb!
+[2015-12-08 17:52:10.365] [INFO] console - redis connect success!
+[2015-12-08 17:52:10.380] [INFO] console - redis is ready!
+[2015-12-08 17:52:10.382] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:52:10.399] [INFO] console - connected to mongodb!
+[2015-12-08 17:52:39.599] [INFO] console - redis connect success!
+[2015-12-08 17:52:39.615] [INFO] console - redis is ready!
+[2015-12-08 17:52:39.617] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:52:39.632] [INFO] console - connected to mongodb!
+[2015-12-08 17:52:39.649] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 17:52:58.268] [INFO] console - redis connect success!
+[2015-12-08 17:52:58.290] [INFO] console - redis is ready!
+[2015-12-08 17:52:58.291] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:52:58.310] [INFO] console - connected to mongodb!
+[2015-12-08 17:52:58.327] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 17:53:14.523] [INFO] console - redis connect success!
+[2015-12-08 17:53:14.530] [INFO] console - redis is ready!
+[2015-12-08 17:53:14.531] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:53:14.535] [INFO] console - connected to mongodb!
+[2015-12-08 17:54:51.456] [INFO] console - redis connect success!
+[2015-12-08 17:54:51.469] [INFO] console - redis is ready!
+[2015-12-08 17:54:51.471] [INFO] console - 缓存中有机器人数据==>> {"all":{"5666a22a77d1cd7c545e3a5c":{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},"5666a21c77d1cd7c545e3a5b":{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}},"info":[{"_id":"5666a22a77d1cd7c545e3a5c","name":"小董","level":5},{"_id":"5666a21c77d1cd7c545e3a5b","name":"小东","level":2}]}
+[2015-12-08 17:54:51.478] [INFO] console - connected to mongodb!
+[2015-12-08 17:54:59.545] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 17:54:59.548] [INFO] console - { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' }
+[2015-12-08 17:54:59.549] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 17:57:19.106] [INFO] console - redis connect success!
+[2015-12-08 17:57:19.113] [INFO] console - redis is ready!
+[2015-12-08 17:57:19.114] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 17:57:19.119] [INFO] console - connected to mongodb!
+[2015-12-08 17:57:19.124] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 17:57:19.125] [INFO] console - { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' }
+[2015-12-08 17:57:19.126] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 18:09:30.224] [INFO] console - redis connect success!
+[2015-12-08 18:09:30.230] [INFO] console - redis is ready!
+[2015-12-08 18:09:30.231] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 18:09:30.237] [INFO] console - connected to mongodb!
+[2015-12-08 18:09:30.245] [INFO] console - ddddddddd==>> [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+  { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ]
+[2015-12-08 18:09:30.256] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 18:09:30.257] [INFO] console - { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' }
+[2015-12-08 18:09:30.258] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-08 18:25:18.331] [INFO] console - redis connect success!
+[2015-12-08 18:25:18.339] [INFO] console - redis is ready!
+[2015-12-08 18:25:18.340] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-08 18:25:18.346] [INFO] console - connected to mongodb!
+[2015-12-08 18:25:55.227] [INFO] console - redis connect success!
+[2015-12-08 18:25:55.235] [INFO] console - redis is ready!
+[2015-12-08 18:25:55.239] [INFO] console - connected to mongodb!
+[2015-12-08 18:25:55.254] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 18:25:55.256] [INFO] console - { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' }
+[2015-12-08 18:25:55.257] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: 
+   [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] } }
+[2015-12-08 18:26:30.618] [INFO] console - redis connect success!
+[2015-12-08 18:26:30.626] [INFO] console - redis is ready!
+[2015-12-08 18:26:30.627] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: 
+   [ { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: { '0': [ [Object], [Object] ] } }
+[2015-12-08 18:26:30.634] [INFO] console - connected to mongodb!
+[2015-12-08 18:26:30.650] [INFO] console - { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' }
+[2015-12-08 18:26:30.651] [INFO] console - { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' }
+[2015-12-08 18:26:30.651] [INFO] console - { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' }
+[2015-12-08 18:26:30.652] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' },
+     '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } },
+  info: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] } }

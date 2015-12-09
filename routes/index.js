@@ -20,7 +20,6 @@ router.post('/login',function(req, res){
                 //return res.render('main.html',{title : '首页'});
                 return res.send({status : 200,info : userInfo});
             }
-
         } else {
             return res.sendStatus(500);
         }
