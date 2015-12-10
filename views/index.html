@@ -6,10 +6,12 @@
         <form id="form1" name="form1" method="post" action="/login">
             <fieldset>
                 <h2>欢迎登陆</h2>
+
                 <div class="input-group margin-bottom-sm">
                     <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Email address">
                 </div>
+
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
                     <input class="form-control" type="password" id="password" name="password" placeholder="Password">
@@ -17,6 +19,8 @@
 
                 <div class="input-group">
                     <button id="form1_submit" type="button" class="btn btn-primary">登陆</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a type="button" class="btn btn-primary" href="/register">注册</a>
                 </div>
             </fieldset>
         </form>
@@ -31,12 +35,13 @@
                 type : 'POST',
                 data : {email : $('#email').value, password : $('#password').value},
                 dataType : 'json',
-                success : function (result) {
+                success : function (err,result) {
                     console.log('=====>>',result);
-                    alert('成功');
+                    console.log('成功');
+//                    res.redirect('/mail');
                 },
                 error : function(err){
-                    alert('请注册');
+                    console.log('请注册'+err.toString());
                 }
             });
             return false; //阻止表单自动提交

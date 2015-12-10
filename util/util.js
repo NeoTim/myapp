@@ -27,6 +27,10 @@ function getRedisData(key,callback){
     });
 }
 
+function deleteRedisData(key,callback){
+    redisClient.del(key, callback);
+}
+
 function getMNTime(date){
     var curr = new Date();
     if(!!date){
@@ -44,7 +48,23 @@ function getMNTime(date){
     return {morning : morning, night : night};
 }
 
-exports.getMNTime = getMNTime;
+//冒泡排序
+function bubbleSort(array,key){
+    for(var i = 0 ; i < array.length; i++){
+        for(var j = i ; j < array.length; j++){
+            if(array[i][key] < array[j][key]){
+                var temp = array[j];
+                array[j] = array[i];
+                array[i] = temp;
+            }
+        }
+    }
+}
+
 exports.hashAlgorithm = hashAlgorithm;
+
+exports.getMNTime = getMNTime;
 exports.setRedisData = setRedisData;
 exports.getRedisData = getRedisData;
+exports.deleteRedisData = deleteRedisData;
+exports.bubbleSort = bubbleSort;

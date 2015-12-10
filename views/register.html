@@ -1,0 +1,55 @@
+<% include header.html %>
+<!--<h1><%= title %></h1>-->
+<!--<p>Welcome to <%= title %></p>-->
+
+<div class="container">
+    <form id="form1" name="form1" method="post" action="/login">
+        <fieldset>
+            <h2>欢迎注册</h2>
+            <div class="input-group margin-bottom-sm">
+                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                <input class="form-control" type="text" id="name" name="name" placeholder="User name">
+            </div>
+
+            <div class="input-group margin-bottom-sm">
+                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                <input class="form-control" type="text" id="email" name="email" placeholder="Email address">
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+            </div>
+
+            <div class="input-group">
+                <button id="form1_submit" type="button" class="btn btn-primary">注册</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function () {
+        console.log('ready go!');
+        $('#form1_submit').on('click', function () {
+            $('#form1').ajaxSubmit({
+                url : '/register',
+                type : 'POST',
+                data : {email : $('#email').value, password : $('#password').value,name : $('#name').value},
+                dataType : 'json',
+                success : function (info,tag) {
+                    console.log('=====>>',tag,info);
+                    if(tag === 'success'){
+                        console.log('成功');
+                        window.location.href = info.redirect;
+                    }
+                },
+                error : function(err){
+                    console.log('请注册');
+                }
+            });
+            return false; //阻止表单自动提交
+        });
+    });
+</script>
+<% include footer.html %>

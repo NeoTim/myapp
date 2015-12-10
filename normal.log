@@ -225,3 +225,1363 @@
       [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
         { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
      '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] } }
+[2015-12-09 10:51:39.287] [INFO] console - redis connect success!
+[2015-12-09 10:51:39.302] [INFO] console - redis is ready!
+[2015-12-09 10:51:39.303] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 } },
+  info: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] } }
+[2015-12-09 10:51:39.326] [INFO] console - connected to mongodb!
+[2015-12-09 10:51:39.363] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' },
+     '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } },
+  info: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 10:52:36.305] [INFO] console - redis connect success!
+[2015-12-09 10:52:36.321] [INFO] console - redis is ready!
+[2015-12-09 10:52:36.322] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 } },
+  info: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 10:52:36.327] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 } },
+  info: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 10:52:36.341] [INFO] console - ownranking==>> 3
+[2015-12-09 10:52:36.349] [INFO] console - connected to mongodb!
+[2015-12-09 10:52:36.384] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' },
+     '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } },
+  info: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 10:54:06.279] [INFO] console - redis connect success!
+[2015-12-09 10:54:06.295] [INFO] console - redis is ready!
+[2015-12-09 11:02:28.745] [INFO] console - redis connect success!
+[2015-12-09 11:02:28.763] [INFO] console - redis is ready!
+[2015-12-09 11:02:28.778] [INFO] console - connected to mongodb!
+[2015-12-09 11:02:28.812] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: [],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 11:03:16.580] [INFO] console - redis connect success!
+[2015-12-09 11:03:16.596] [INFO] console - redis is ready!
+[2015-12-09 11:03:16.598] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 11:03:16.602] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 11:03:16.623] [INFO] console - connected to mongodb!
+[2015-12-09 11:03:16.625] [INFO] console - ownranking==>> 3
+[2015-12-09 11:03:16.658] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: [],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 11:03:39.474] [INFO] console - redis connect success!
+[2015-12-09 11:03:39.490] [INFO] console - redis is ready!
+[2015-12-09 11:03:39.492] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 11:03:39.496] [INFO] console - 缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 11:03:39.502] [INFO] console - ownranking==>> 3
+[2015-12-09 11:03:39.523] [INFO] console - connected to mongodb!
+[2015-12-09 11:03:39.543] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: [],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 11:04:12.254] [INFO] console - redis connect success!
+[2015-12-09 11:04:12.269] [INFO] console - redis is ready!
+[2015-12-09 11:04:12.275] [INFO] console - errrr no_redis_robots_users
+[2015-12-09 11:04:12.280] [INFO] console - connected to mongodb!
+[2015-12-09 11:04:12.315] [INFO] console - 机器人初始化完毕! { all: 
+   { '5666b04777d1cd7c545e3a5d': { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     '5666a22a77d1cd7c545e3a5c': { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     '5666a21c77d1cd7c545e3a5b': { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } },
+  info: [],
+  levelRange: 
+   { '0': 
+      [ { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+        { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ],
+     '1': [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' } ] },
+  users: 
+   [ { level: 11, name: '小明', _id: '5666b04777d1cd7c545e3a5d' },
+     { level: 5, name: '小董', _id: '5666a22a77d1cd7c545e3a5c' },
+     { level: 2, name: '小东', _id: '5666a21c77d1cd7c545e3a5b' } ] }
+[2015-12-09 11:09:32.854] [INFO] console - redis connect success!
+[2015-12-09 11:09:32.874] [INFO] console - redis is ready!
+[2015-12-09 11:09:32.885] [INFO] console - connected to mongodb!
+[2015-12-09 11:09:32.919] [INFO] console - 机器人初始化完毕!
+[2015-12-09 11:09:37.852] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRange: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 11:09:37.861] [INFO] console - getOwnRanking==>> null 3
+[2015-12-09 13:39:30.258] [INFO] console - redis connect success!
+[2015-12-09 13:39:30.273] [INFO] console - redis is ready!
+[2015-12-09 13:39:30.285] [INFO] console - connected to mongodb!
+[2015-12-09 13:39:30.319] [INFO] console - 机器人初始化完毕!
+[2015-12-09 13:39:35.255] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 13:39:38.259] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object], [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 13:39:38.263] [INFO] console - getOwnRanking= null 1
+[2015-12-09 14:02:11.184] [INFO] console - redis connect success!
+[2015-12-09 14:02:11.197] [INFO] console - redis is ready!
+[2015-12-09 14:02:11.209] [INFO] console - connected to mongodb!
+[2015-12-09 14:02:11.239] [INFO] console - 机器人初始化完毕!
+[2015-12-09 14:02:16.184] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 14:02:19.186] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object], [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 14:02:19.191] [INFO] console - getOwnRanking= null 1
+[2015-12-09 14:02:21.185] [INFO] console - getTop==>> undefined [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+  { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+  { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+  { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ]
+[2015-12-09 14:02:44.981] [INFO] console - redis connect success!
+[2015-12-09 14:02:44.998] [INFO] console - redis is ready!
+[2015-12-09 14:02:45.010] [INFO] console - connected to mongodb!
+[2015-12-09 14:02:45.041] [INFO] console - 机器人初始化完毕!
+[2015-12-09 14:02:49.982] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 14:02:52.982] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  info: [],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object], [Object] ] },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ] }
+[2015-12-09 14:02:52.987] [INFO] console - getOwnRanking= null 1
+[2015-12-09 14:02:54.978] [INFO] console - getTop==>> undefined [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+  { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 } ]
+[2015-12-09 17:40:09.390] [INFO] console - redis connect success!
+[2015-12-09 17:40:09.405] [INFO] console - redis is ready!
+[2015-12-09 17:40:09.407] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' } },
+  users: 
+   [ { _id: 'e058d87a1c70914aafec890d41f9406f',
+       nickName: 'star',
+       level: 10,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+       nickName: '似曾相识',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     { _id: '6e07c653888096d92eb0215d01ffb229',
+       nickName: '翟玉',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' } ],
+  levelRanking: { '0': [ [Object], [Object], [Object], [Object] ] } }
+[2015-12-09 17:40:09.424] [INFO] console - connected to mongodb!
+[2015-12-09 17:40:09.454] [INFO] console - 机器人初始化完毕!
+[2015-12-09 17:40:14.385] [INFO] console - getOwnRanking-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] } }
+[2015-12-09 17:40:19.388] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object], [Object] ] } }
+[2015-12-09 17:40:19.407] [INFO] console - 机器人初始化完毕!
+[2015-12-09 17:40:29.390] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] } }
+[2015-12-09 17:40:29.408] [INFO] console - 机器人初始化完毕!
+[2015-12-09 17:40:39.393] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     '5666b04777d1cd7c545e3a5e': { _id: '5666b04777d1cd7c545e3a5e', name: '王强', level: 20 } },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRanking: { '0': [ [Object], [Object] ], '1': [ [Object] ] } }
+[2015-12-09 17:40:39.413] [INFO] console - 机器人初始化完毕!
+[2015-12-10 14:29:57.826] [INFO] console - redis connect success!
+[2015-12-10 14:29:57.841] [INFO] console - redis is ready!
+[2015-12-10 14:29:57.843] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { e058d87a1c70914aafec890d41f9406f: 
+      { _id: 'e058d87a1c70914aafec890d41f9406f',
+        nickName: 'star',
+        level: 10,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     abf6968f83cb45652b1e5cb2e84da54f: 
+      { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+        nickName: '似曾相识',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' },
+     '6e07c653888096d92eb0215d01ffb229': 
+      { _id: '6e07c653888096d92eb0215d01ffb229',
+        nickName: '翟玉',
+        level: 0,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     a6f615fdf496a5f348b2595fc3949291: 
+      { _id: 'a6f615fdf496a5f348b2595fc3949291',
+        nickName: '小东',
+        level: 100,
+        xp: 0,
+        headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' } },
+  users: 
+   [ { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 100,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'e058d87a1c70914aafec890d41f9406f',
+       nickName: 'star',
+       level: 10,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/12/43635638_1447294296414.jpg' },
+     { _id: '6e07c653888096d92eb0215d01ffb229',
+       nickName: '翟玉',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/10/17/43338656_1445064554225.jpg' },
+     { _id: 'a6f615fdf496a5f348b2595fc3949291',
+       nickName: '小东',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/17/43689003_1447731174274.jpg' },
+     { _id: 'abf6968f83cb45652b1e5cb2e84da54f',
+       nickName: '似曾相识',
+       level: 0,
+       xp: 0,
+       headImage: 'http://p.cdn.pengpengla.com/p/u/2015/11/11/43628700_1447213006307.jpg' } ],
+  levelRanking: 
+   { '0': [ [Object], [Object], [Object], [Object] ],
+     '9': 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] } }
+[2015-12-10 14:29:57.881] [INFO] console - connected to mongodb!
+[2015-12-10 14:29:57.923] [INFO] console - 机器人初始化完毕!
+[2015-12-10 14:30:07.832] [INFO] console - initRobot-缓存中有机器人数据==>> { all: 
+   { '5666b04777d1cd7c545e3a5d': { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     '5666a22a77d1cd7c545e3a5c': { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     '5666a21c77d1cd7c545e3a5b': { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } },
+  users: 
+   [ { _id: '5666b04777d1cd7c545e3a5d', name: '小明', level: 11 },
+     { _id: '5666a22a77d1cd7c545e3a5c', name: '小董', level: 5 },
+     { _id: '5666a21c77d1cd7c545e3a5b', name: '小东', level: 2 } ],
+  levelRanking: 
+   { '0': [ [Object], [Object] ],
+     '1': [ [Object] ],
+     '9': 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] } }
+[2015-12-10 14:30:07.870] [INFO] console - 机器人初始化完毕!
+[2015-12-10 14:30:17.852] [INFO] console - 机器人初始化完毕!
+[2015-12-10 14:30:23.033] [INFO] console - redis connect success!
+[2015-12-10 14:30:23.046] [INFO] console - redis is ready!
+[2015-12-10 14:30:23.058] [INFO] console - connected to mongodb!
+[2015-12-10 14:30:51.822] [INFO] console - redis connect success!
+[2015-12-10 14:30:51.836] [INFO] console - redis is ready!
+[2015-12-10 14:30:51.851] [INFO] console - connected to mongodb!
+[2015-12-10 14:31:23.248] [INFO] console - 用户登陆 []
+[2015-12-10 14:32:48.042] [INFO] console - redis connect success!
+[2015-12-10 14:32:48.056] [INFO] console - redis is ready!
+[2015-12-10 14:32:48.069] [INFO] console - connected to mongodb!
+[2015-12-10 14:33:03.264] [INFO] console - 用户登陆 []
+[2015-12-10 14:33:09.959] [INFO] console - 用户登陆 []
+[2015-12-10 14:33:14.562] [INFO] console - 用户登陆 []
+[2015-12-10 14:35:22.466] [INFO] console - redis connect success!
+[2015-12-10 14:35:22.479] [INFO] console - redis is ready!
+[2015-12-10 14:35:22.492] [INFO] console - connected to mongodb!
+[2015-12-10 14:35:33.424] [INFO] console - 用户登陆 undefined
+[2015-12-10 14:36:37.892] [INFO] console - redis connect success!
+[2015-12-10 14:36:37.904] [INFO] console - redis is ready!
+[2015-12-10 14:36:37.915] [INFO] console - connected to mongodb!
+[2015-12-10 15:01:28.338] [INFO] console - redis connect success!
+[2015-12-10 15:01:28.354] [INFO] console - redis is ready!
+[2015-12-10 15:01:28.368] [INFO] console - connected to mongodb!
+[2015-12-10 15:02:51.837] [INFO] console - redis connect success!
+[2015-12-10 15:02:51.851] [INFO] console - redis is ready!
+[2015-12-10 15:02:51.863] [INFO] console - connected to mongodb!
+[2015-12-10 15:04:19.631] [INFO] console - redis connect success!
+[2015-12-10 15:04:19.645] [INFO] console - redis is ready!
+[2015-12-10 15:04:19.657] [INFO] console - connected to mongodb!
+[2015-12-10 15:04:42.590] [INFO] console - parameter===>> { name: '李晓东', email: '875697126@qq.com', password: 'tiger' }
+[2015-12-10 15:05:58.905] [INFO] console - redis connect success!
+[2015-12-10 15:05:58.918] [INFO] console - redis is ready!
+[2015-12-10 15:05:58.930] [INFO] console - connected to mongodb!
+[2015-12-10 15:06:20.709] [INFO] console - parameter===>> { name: '李晓东', email: '875697126@qq.com', password: 'tiger' }
+[2015-12-10 15:06:43.559] [INFO] console - redis connect success!
+[2015-12-10 15:06:43.575] [INFO] console - redis is ready!
+[2015-12-10 15:06:43.585] [INFO] console - connected to mongodb!
+[2015-12-10 15:07:08.620] [INFO] console - parameter===>> { name: '抓不住的风', email: '875697126@qq.com', password: 'tiger' }
+[2015-12-10 15:13:26.271] [INFO] console - redis connect success!
+[2015-12-10 15:13:26.288] [INFO] console - redis is ready!
+[2015-12-10 15:13:26.300] [INFO] console - connected to mongodb!
+[2015-12-10 15:13:35.541] [INFO] console - parameter===>> { name: '抓不住的风', email: '875697126@qq.com', password: 'tiger' }
+[2015-12-10 15:17:08.391] [INFO] console - redis connect success!
+[2015-12-10 15:17:08.403] [INFO] console - redis is ready!
+[2015-12-10 15:17:08.415] [INFO] console - connected to mongodb!
+[2015-12-10 15:17:51.138] [INFO] console - parameter===>> { name: '浪里小白脸',
+  email: 'hautlixiaodong@163.com',
+  password: 'tiger' }
+[2015-12-10 15:17:51.178] [INFO] console - ////////main
+[2015-12-10 15:23:38.229] [INFO] console - redis connect success!
+[2015-12-10 15:23:38.246] [INFO] console - redis is ready!
+[2015-12-10 15:23:38.262] [INFO] console - connected to mongodb!
+[2015-12-10 15:23:39.559] [INFO] console - parameter===>> { name: '浪里小白脸',
+  email: 'hautlixiaodong@163.com',
+  password: 'tiger' }
+[2015-12-10 15:23:39.585] [INFO] console - --->>> USER_EXISTS
+[2015-12-10 15:24:59.581] [INFO] console - redis connect success!
+[2015-12-10 15:24:59.600] [INFO] console - redis is ready!
+[2015-12-10 15:24:59.614] [INFO] console - connected to mongodb!
+[2015-12-10 15:25:06.593] [INFO] console - parameter===>> { name: '浪里小白脸',
+  email: 'hautlixiaodong@126.com',
+  password: 'tiger' }
+[2015-12-10 15:25:06.633] [INFO] console - --->>> null
+[2015-12-10 15:26:52.459] [INFO] console - parameter===>> { name: '学习学习',
+  email: 'hautlixiaodong@169.com',
+  password: 'tiger' }
+[2015-12-10 15:26:52.465] [INFO] console - --->>> null
+[2015-12-10 15:28:28.760] [INFO] console - ////////main
+[2015-12-10 15:34:33.265] [INFO] console - ////////main
+[2015-12-10 15:44:46.571] [INFO] console - ////////main
+[2015-12-10 15:49:28.977] [INFO] console - ////////main
+[2015-12-10 15:52:11.449] [INFO] console - ////////main
+[2015-12-10 15:53:19.822] [INFO] console - ////////main
+[2015-12-10 15:55:32.005] [INFO] console - ////////main
+[2015-12-10 15:56:19.258] [INFO] console - ////////main
+[2015-12-10 15:57:56.773] [INFO] console - redis connect success!
+[2015-12-10 15:57:56.785] [INFO] console - redis is ready!
+[2015-12-10 15:57:56.798] [INFO] console - connected to mongodb!
+[2015-12-10 15:58:15.032] [INFO] console - parameter===>> { name: '长颈鹿', email: 'chagnjinglu@qq.com', password: 'tiger' }
+[2015-12-10 15:58:15.094] [INFO] console - --->>> null
+[2015-12-10 15:59:21.147] [INFO] console - redis connect success!
+[2015-12-10 15:59:21.167] [INFO] console - redis is ready!
+[2015-12-10 15:59:21.183] [INFO] console - connected to mongodb!
+[2015-12-10 15:59:25.584] [INFO] console - parameter===>> { name: '长颈鹿', email: 'chagnjinglu@163.com', password: 'tiger' }
+[2015-12-10 15:59:25.628] [INFO] console - --->>> null
+[2015-12-10 15:59:58.318] [INFO] console - redis connect success!
+[2015-12-10 15:59:58.333] [INFO] console - redis is ready!
+[2015-12-10 15:59:58.348] [INFO] console - connected to mongodb!
+[2015-12-10 16:00:04.721] [INFO] console - parameter===>> { name: '长颈鹿', email: 'chagnjinglu@169.com', password: 'tiger' }
+[2015-12-10 16:00:04.761] [INFO] console - --->>> null
+[2015-12-10 16:00:54.799] [INFO] console - parameter===>> { name: '大象', email: 'daxiang@qq.com', password: 'tiger' }
+[2015-12-10 16:00:54.806] [INFO] console - --->>> null
+[2015-12-10 16:02:29.204] [INFO] console - redis connect success!
+[2015-12-10 16:02:29.221] [INFO] console - redis is ready!
+[2015-12-10 16:02:29.235] [INFO] console - connected to mongodb!
+[2015-12-10 16:02:35.620] [INFO] console - parameter===>> { name: '大象', email: 'daxiang@163.com', password: 'tiger' }
+[2015-12-10 16:02:35.662] [INFO] console - --->>> null
+[2015-12-10 16:04:20.574] [INFO] console - redis connect success!
+[2015-12-10 16:04:20.592] [INFO] console - redis is ready!
+[2015-12-10 16:04:20.607] [INFO] console - connected to mongodb!
+[2015-12-10 16:04:35.163] [INFO] console - parameter===>> { name: 'laolv', email: 'laolv@qq.com', password: 'tiger' }
+[2015-12-10 16:04:35.202] [INFO] console - --->>> null
+[2015-12-10 16:04:35.225] [INFO] console - ////////main

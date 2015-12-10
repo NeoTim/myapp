@@ -7,9 +7,7 @@ var mongoose = require('mongoose');
 var userSchema = new mongoose.Schema({
     _id: String,
     password : String,
-    age : {type : Number, default : 0},
     name : String,
-    level :{type : Number, default : 1},
     loginTime : {type : Number, default:0}
 },{_id : false});
 
@@ -20,6 +18,7 @@ var articleSchema = new mongoose.Schema({
     createTime : {type :Number, default: Date.now()},
     modifyTime : {type : Number,default: Date.now()}
 });
+
 
 userSchema.static.findPagination = function(obj,callback) {
     var q = obj.search || {};//查询条件

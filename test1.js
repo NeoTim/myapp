@@ -1,15 +1,17 @@
-var curr = new Date();
+var index =
+    [
+        { start: 0,  end: 10 },
+        { start: 11, end: 20 },
+        { start: 21, end: 30 },
+        { start: 31, end: 40 },
+        { start: 41, end: 50 },
+        { start: 51, end: 60 },
+        { start: 61, end: 70 },
+        { start: 71, end: 80 },
+        { start: 81, end: 90 },
+        { start: 91, end: 100 }
+    ];
 
-var year = curr.getFullYear();
-var month = curr.getMonth() + 1;
-month = month < 10 ? '0'+month : month;
-var day = curr.getDate();
-day = day < 10 ? '0'+day : day;
+var a = index.slice(0,5);
 
-var morning = new Date(year + '-' + month + '-' + day + ' 00:00:00').getTime();
-var night = morning + 24 * 60 * 60 * 1000;
-
-
-console.log(morning,night);
-
-
+console.log(a,index.length)

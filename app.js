@@ -51,13 +51,10 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error...'));
 db.once('open', function () { console.log('connected to mongodb!'); });
 
-//var Redis = require('./lib/redis.js');
-//
-//new Redis().createRedisClient();
+//var Robot = require('./models/robot.js');
+//var robot = new Robot();
+//robot.initRobot(function(){});
 
-var Robot = require('./models/robot.js');
-var robot = new Robot();
-robot.initRobot();
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
