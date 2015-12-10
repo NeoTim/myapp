@@ -25,7 +25,7 @@ router.post('/register', function (req, res) {
 
 router.get('/main', function (req,res) {
     console.log('////////main');
-    res.render('main.html',{title : '房间管理'});
+    res.render('main.html',{title : '碰碰对战'});
 });
 
 router.post('/login',function(req, res){

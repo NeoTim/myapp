@@ -1585,3 +1585,31 @@
 [2015-12-10 16:04:35.163] [INFO] console - parameter===>> { name: 'laolv', email: 'laolv@qq.com', password: 'tiger' }
 [2015-12-10 16:04:35.202] [INFO] console - --->>> null
 [2015-12-10 16:04:35.225] [INFO] console - ////////main
+[2015-12-10 16:23:08.832] [INFO] console - ////////main
+[2015-12-10 16:23:20.536] [INFO] console - ////////main
+[2015-12-10 16:23:30.955] [INFO] console - ////////main
+[2015-12-10 16:30:35.921] [INFO] console - ////////main
+[2015-12-10 16:37:15.192] [INFO] console - ////////main
+[2015-12-10 16:37:38.865] [INFO] console - ////////main
+[2015-12-10 16:38:25.895] [INFO] console - ////////main
+[2015-12-10 16:42:26.318] [INFO] console - ////////main
+[2015-12-10 16:42:38.155] [INFO] console - ////////main
+[2015-12-10 16:42:40.159] [INFO] console - ////////main
+[2015-12-10 16:42:47.043] [INFO] console - ////////main
+[2015-12-10 16:43:06.949] [INFO] console - ////////main
+[2015-12-10 16:43:33.804] [INFO] console - ////////main
+[2015-12-10 16:43:35.436] [INFO] console - ////////main
+[2015-12-10 16:43:51.370] [INFO] console - ////////main
+[2015-12-10 16:44:13.639] [INFO] console - ////////main
+[2015-12-10 16:44:15.140] [INFO] console - ////////main
+[2015-12-10 16:44:16.184] [INFO] console - ////////main
+[2015-12-10 16:44:17.286] [INFO] console - ////////main
+[2015-12-10 16:44:29.395] [INFO] console - ////////main
+[2015-12-10 16:45:31.142] [INFO] console - ////////main
+[2015-12-10 16:45:41.528] [INFO] console - ////////main
+[2015-12-10 16:46:03.178] [INFO] console - ////////main
+[2015-12-10 16:46:04.666] [INFO] console - ////////main
+[2015-12-10 16:46:12.662] [INFO] console - redis connect success!
+[2015-12-10 16:46:12.682] [INFO] console - redis is ready!
+[2015-12-10 16:46:12.702] [INFO] console - connected to mongodb!
+[2015-12-10 16:46:13.979] [INFO] console - ////////main
