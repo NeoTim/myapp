@@ -38,7 +38,7 @@ var register = function( req, next){
         return;
     }
 
-    console.log('parameter===>>',req.body);
+    //console.log('parameter===>>',req.body);
     email = util.hashAlgorithm(email);
     password = util.hashAlgorithm(password);
 

@@ -5,7 +5,7 @@ var logger = require('../lib/logger.js').logger('login');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index.html', { title: 'Express' });
+  res.render('index.html', { title: '撞撞游戏中心' });
 });
 
 router.get('/register', function (req,res) {
@@ -14,18 +14,12 @@ router.get('/register', function (req,res) {
 
 router.post('/register', function (req, res) {
     user.register(req, function (err) {
-        console.log('--->>>',err);
         if(!err){
-            res.status(200).send({redirect : '/main'});
+            res.status(200).send({redirect : '/roomlist'});
         } else {
             return res.send(err);
         }
     });
-});
-
-router.get('/main', function (req,res) {
-    console.log('////////main');
-    res.render('main.html',{title : '碰碰对战'});
 });
 
 router.post('/login',function(req, res){
@@ -35,10 +29,7 @@ router.post('/login',function(req, res){
             if(!userInfo){
                 return res.sendStatus(300);
             } else {
-                //todo
-                console.log('用户登陆',userInfo);
-                //return res.send({status : 200,info : userInfo});
-                return res.render('main.html',{title : '房间管理'});
+                res.status(200).send({redirect : '/main'});
             }
         } else {
             return res.sendStatus(500);
@@ -46,5 +37,8 @@ router.post('/login',function(req, res){
     });
 });
 
+router.get('/roomlist', function (req,res) {
+    res.render('roomlist.html',{title : '撞撞对战'});
+});
 
 module.exports = router;

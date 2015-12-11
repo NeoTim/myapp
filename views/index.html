@@ -35,10 +35,13 @@
                 type : 'POST',
                 data : {email : $('#email').value, password : $('#password').value},
                 dataType : 'json',
-                success : function (err,result) {
-                    console.log('=====>>',result);
-                    console.log('成功');
-//                    res.redirect('/mail');
+                success : function (info,tag) {
+                    if(tag === 'success'){
+                        console.log('成功');
+                        window.location.href = info.redirect;
+                    } else {
+                        $('#form1').resetForm();
+                    }
                 },
                 error : function(err){
                     console.log('请注册'+err.toString());
