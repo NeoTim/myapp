@@ -1,7 +1,4 @@
 <% include header.html %>
-    <!--<h1><%= title %></h1>-->
-    <!--<p>Welcome to <%= title %></p>-->
-
     <div class="container">
         <form id="form1" name="form1" method="post" action="/login">
             <fieldset>
@@ -11,21 +8,23 @@
                     <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                     <input class="form-control" type="text" id="email" name="email" placeholder="Email address">
                 </div>
+                <br>
 
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
                     <input class="form-control" type="password" id="password" name="password" placeholder="Password">
                 </div>
+                <br>
 
-                <div class="input-group">
+                <div class="input-group" align="center">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <button id="form1_submit" type="button" class="btn btn-primary">登陆</button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a type="button" class="btn btn-primary" href="/register">注册</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a type="button" class="btn btn-danger" href="/register">注册</a>
                 </div>
             </fieldset>
         </form>
     </div>
-
 <script>
     $(document).ready(function () {
         console.log('ready go!');
